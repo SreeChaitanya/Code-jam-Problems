@@ -9,7 +9,7 @@ while(i<N):
     no=int(f.readline())
     while(j<no):
         a,b=(f.readline()).split()
-        a,b=int(a),int(b)
+        a,b=int(a),int(b)  
         lst.append([a,b])
         j=j+1
     

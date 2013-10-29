@@ -4,7 +4,7 @@ a=int(f.readline())
 i=0
 for line in f:
     a=line.split()
-    a=a[::-1]
+    a=a[::-1] 
     a=' '.join(a)
     i=i+1
     fo.write("Case #"+str(i)+": "+a+"\n")

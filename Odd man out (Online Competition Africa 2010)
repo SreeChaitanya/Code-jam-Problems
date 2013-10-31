@@ -5,7 +5,7 @@ i=0
 j=0
 while(i<a):
     f.readline() 
-    string=f.readline()
+    string=f.readline() 
     string=string.split()
     while(j<len(string)):
         st=string.pop(j)

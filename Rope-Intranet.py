@@ -21,7 +21,7 @@ while(i<N):
               if(((lst[k][0]<lst[m][0])and(lst[k][1]>lst[m][1])) or ((lst[k][0]>lst[m][0])and(lst[k][1]<lst[m][1])) ):
                   count=count+1
               m=m+1
-        k=k+1
+        k=k+1 
     fo.write("Case #"+str(i+1)+": "+str(count))
     fo.write('\n')
     i=i+1;
